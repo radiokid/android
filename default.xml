@@ -21,7 +21,7 @@
            sync-c="true"
            sync-j="4" />
 
-  <project name="temasek/android_build/" path="build" remote="github" revision="cm-11.0" />
+  <project path="build" name="temasek/android_build/" revision="cm-11.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
